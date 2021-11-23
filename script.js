@@ -1,5 +1,4 @@
-// Declaration of the constant variables and array ///////////
-// This is an array with for the moment two objects in it. You can put in more and separate them with a comma. The last one has no comma.
+
 const mindfulnessArray = [
   {
     text: "Start to bring out some paper and pens, preferably with color. Start to draw something without any goal, give your mind a moment and see where it takes you. It doesn’t have to be any good or beautiful, it just has to be in the present.",

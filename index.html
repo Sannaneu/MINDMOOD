@@ -1,26 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!--
-      This is the page head - it contains info the browser uses to display the page
-      You won't see what's in the head in the page
-      Scroll down to the body element for the page content
-    -->
     <meta charset="“UTF-8”" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MINDMOOD</title>
-    <!-- Meta tag for SEO-->
+
     <meta
       name="description"
-      content="A mindfulnessgenerator for your everyday life."
+      content="Write a short description of your webpage."
     />
     <link
       rel="icon"
       href="./assets/writeHereTheNameToYourFavicon.WriteHereTheEnding"
     />
-    <!-- Imports the webpage's stylesheet -->
+
     <link rel="stylesheet" href="./style.css" />
-    <!-- If you want to use google fonts -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -36,9 +31,8 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body a link="white" vlink="white">
     <main>
-      <!-- ALTERED CODE -->
       <h1>MINDMOOD</h1>
       <h2>
         Your everyday mindfulness generator, that can easily be used in your
@@ -46,7 +40,6 @@
       </h2>
       <button class="generator">Press Here</button>
       <div class="pop-up-wrapper" id="wrapper-mindfulness">
-        <!-- Alternative you use an image for the cross to click on and not a x-text -->
         <div id="x-cross">
           <img
             src="assets/transparent-circle-icon-cross-icon-5dc42f7ebdd1a2.4642042115731383027775.png"
@@ -59,25 +52,30 @@
             <p id="text-mindfulness"></p>
           </div>
         </div>
-        <!-- For the img would be good if you can already decide upon a width and hight when you create the img and save the img so -->
       </div>
 
-      <!-- FINISH NEW CODE -->
       <p id="test">
         Don’t forget to subscribe to our playlist! Calm your senses and release
         your inner creativity
       </p>
-      <button><a href=""></a> Subscribe</button>
+      <button class="subscribe">
+        <a
+          href="https://open.spotify.com/playlist/7pGOgupHSCdZGV2Ut1pTYA?si=29074f12a35c4d9b"
+          style="text-decoration: none"
+        >
+          <p>Subscribe</p></a
+        >
+      </button>
     </main>
     <footer>
       <p>© MINDMOOD 2021</p>
 
-      <p>
+      <p id="textFooter">
         A Hyper Island Project by Dennis Nilsson, Yasaman Hosseini & Sanna
         Neumann
       </p>
     </footer>
-    <!-- Imports the webpage's javascript file -->
+
     <script src="./script.js"></script>
   </body>
 </html>
